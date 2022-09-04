@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Trabalho Validação Final Guilherme Filipini</title>
+</head>
+
+<body>
+
+    <h1 id="disc">Disciplina : Desenvolvimento Web II</h1>
+    <h1 id="est_prof">Nome do estudante: Guilherme Filipini</h1>
+    <h1 id="est_prof">Professor: Ernani Gottardo</h1>
+    <h1>Trabalho Final 2º Trimeste</h1>
+
+    <div id="div1">
+
+        <div>
+            <p>Nome:</p>
+            <input type="text" placeholder="Nome" id="nm">
+            <br>
+            <p id="nome_validado"></p>
+        </div>
+
+        <div>
+            <p>Email:</p>
+            <input type="text" placeholder="Email" id="em">
+            <br>
+            <p id="email_validado"></p>
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+
+    <div id="div1">
+
+        <div>
+            <p>Telefone:</p>
+            <input type="text" placeholder="Telefone" id="tel">
+            <br>
+            <p id="telefone_validado"></p>
+        </div>
+
+        <div>
+            <p>CPF:</p>
+            <input type="text" placeholder="CPF" id="cpf">
+            <br>
+            <p id="cpf_validado"></p>
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+
+    <div id="div1">
+
+        <div>
+            <fieldset id="sexo">
+                <legend> Sexo </legend>
+                <input type="radio" name="sexo" id="masc" value="masculino">
+                <lable for="masculino">Masculino</lable>
+                <input type="radio" name="sexo" id="fem" value="feminino">
+                <lable for="feminino">Feminino</lable>
+                <input type="radio" name="sexo" id="outr" value="outro">
+                <lable for="outro">Outro</lable>
+            </fieldset>
+            <div>
+                <p id="ponto1"></p>
+                <p id="ponto2"></p>
+                <p id="ponto3"></p>
+            </div>
+        </div>
+
+        <div>
+            <fieldset id="data">
+                <legend>Data</legend>
+                <input type="number" placeholder="dia" id="dia">
+                <input type="number" placeholder="mês" id="mes">
+                <input type="number" placeholder="ano" id="ano">
+            </fieldset>
+            <div>
+                <p id="dia_validado"></p>
+                <p id="mes_validado"></p>
+                <p id="ano_validado"></p>
+            </div>
+        </div>
+
+        
+
+    </div>
+
+    <br>
+
+    <div id="div">
+        <input type="button" value="validar" id="valida">
+        <input type="submit" value="Enviar" id="enviar">
+    </div>
+
+    <br>
+    <br>
+
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Telefone</th>
+            <th>CPF</th>
+            <th>Sexo</th>
+            <th>Data</th>
+        </tr>
+        <tr>
+            <td id="nomet"></td>
+            <td id="emailt"></td>
+            <td id="telefonet"></td>
+            <td id="cpft"></td>
+            <td id="sexot"></td>
+            <td id="datat"></td>
+        </tr>
+    </table>
+
+    <script src="js/java.js"></script>
+</body>
+
+</html>
